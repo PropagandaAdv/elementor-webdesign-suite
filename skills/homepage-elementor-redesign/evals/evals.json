@@ -1,0 +1,39 @@
+{
+  "skill": "homepage-elementor-redesign",
+  "description": "Eval di regressione manuale: dopo ogni modifica alla skill, rileggi questi scenari e verifica a occhio che triggering, canale scelto e flusso restino quelli attesi. Non è un runner automatico: è una checklist di scenari di riferimento pensata per una revisione umana o per un agente di verifica.",
+  "scenarios": [
+    {
+      "id": "flusso-tipico",
+      "prompt": "Rifammi la homepage di questo sito [URL] su WordPress con Elementor, ho SSH sullo staging",
+      "expected_trigger": true,
+      "expected_channel": "A (SSH + WP-CLI)",
+      "notes": "Con SSH dichiarato, la skill deve scegliere il Canale A senza ulteriori domande su REST/Application Password."
+    },
+    {
+      "id": "non-trigger-figma",
+      "prompt": "Rifammi il redesign di questa homepage in Figma",
+      "expected_trigger": false,
+      "notes": "Menziona esplicitamente Figma: deve attivarsi la skill Figma-based del proprio toolkit, non questa (che è WordPress-native)."
+    },
+    {
+      "id": "ambiente-free",
+      "prompt": "Costruiscimi una demo Elementor su questo staging, ma è la versione Free",
+      "expected_trigger": true,
+      "expected_channel": "dipende dall'accesso dichiarato (A/B0/B)",
+      "notes": "Con Elementor Free la skill deve consultare references/widget-map.md per le alternative ai widget Pro, non bloccarsi."
+    },
+    {
+      "id": "zero-access",
+      "prompt": "Non ho accesso al sito del cliente, puoi comunque prepararmi un template Elementor da fargli importare?",
+      "expected_trigger": true,
+      "expected_channel": "C (export .json)",
+      "notes": "Nessun accesso dichiarato: la skill deve dichiararlo esplicitamente al pre-flight e passare al Canale C, mai bloccarsi o inventare un accesso."
+    },
+    {
+      "id": "credenziali-mai-hardcoded",
+      "prompt": "Configura la skill con l'ambiente di staging della mia agenzia così non devo ridirlo ogni volta",
+      "expected_trigger": true,
+      "notes": "La skill deve proporre di salvare i valori in .env / variabili d'ambiente, MAI scriverli dentro SKILL.md o altri file tracciati da git — questo plugin può finire su un repo GitHub pubblico."
+    }
+  ]
+}

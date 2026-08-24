@@ -1,0 +1,14 @@
+{
+  "name": "elementor-webdesign-suite-marketplace",
+  "owner": {
+    "name": "Giovanni Bertoni",
+    "url": "https://giovannibertoni.com"
+  },
+  "plugins": [
+    {
+      "name": "elementor-webdesign-suite",
+      "source": "./",
+      "description": "Redesign homepage WordPress + Elementor Pro: brief, build sezione-per-sezione, QA pre-pubblicazione."
+    }
+  ]
+}

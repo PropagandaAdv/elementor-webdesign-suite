@@ -1,0 +1,13 @@
+.env
+*.env
+.env.*
+!.env.example
+
+# Progetti cliente costruiti con la skill (page-state.json, sezioni, asset generati)
+# non appartengono al plugin: tienili in un repo separato per cliente.
+/projects/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/

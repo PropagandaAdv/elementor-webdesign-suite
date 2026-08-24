@@ -1,0 +1,33 @@
+{
+  "name": "elementor-webdesign-suite",
+  "version": "1.0.0",
+  "description": "Suite per redesign homepage WordPress + Elementor Pro ad alta fedeltà: brief operativo dal questionario cliente, build sezione-per-sezione con JSON Elementor validato e asset via MCP, QA pre-pubblicazione nel browser reale. Nativa Claude Code (hook di validazione automatica, subagent per il ciclo di verifica visiva) e compatibile Google Antigravity IDE via lo standard Agent Skills.",
+  "author": {
+    "name": "Giovanni Bertoni",
+    "url": "https://giovannibertoni.com"
+  },
+  "homepage": "https://github.com/REPLACE_ME/elementor-webdesign-suite",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "elementor",
+    "web-design",
+    "homepage-redesign",
+    "agency"
+  ],
+  "skills": [
+    "./skills/homepage-brief-builder",
+    "./skills/homepage-elementor-redesign",
+    "./skills/website-qa-review"
+  ],
+  "agents": [
+    "./agents/elementor-section-qa.md"
+  ],
+  "commands": [
+    "./commands/elementor-brief.md",
+    "./commands/elementor-build.md",
+    "./commands/elementor-qa.md"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json"
+}

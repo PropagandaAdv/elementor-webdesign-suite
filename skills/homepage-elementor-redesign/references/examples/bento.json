@@ -1,0 +1,671 @@
+{
+  "id": "bn0root",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+    "css_id": "sec-showcase",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap": {
+      "unit": "px",
+      "size": 32,
+      "column": "32",
+      "row": "32"
+    },
+    "flex_gap_mobile": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20"
+    },
+    "padding": {
+      "unit": "px",
+      "top": "112",
+      "right": "24",
+      "bottom": "112",
+      "left": "24",
+      "isLinked": false
+    },
+    "padding_mobile": {
+      "unit": "px",
+      "top": "56",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#f2f4f6"
+  },
+  "elements": [
+    {
+      "id": "bn0head1",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+        "title": "{{H2: cosa facciamo, formulato come risultato per il cliente}}",
+        "header_size": "h2",
+        "title_color": "#101820",
+        "typography_typography": "custom",
+        "typography_font_size": {
+          "unit": "px",
+          "size": 44
+        },
+        "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 28
+        },
+        "typography_font_weight": "700"
+      },
+      "elements": []
+    },
+    {
+      "id": "bn0grid1",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile": "column",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20"
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 14,
+          "column": "14",
+          "row": "14"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "bn1cnt1",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10,
+              "column": "10",
+              "row": "10"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 8,
+              "column": "8",
+              "row": "8"
+            },
+            "width": {
+              "unit": "%",
+              "size": 65
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#101820",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "be1cel0",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{MEDIA_URL_BENTO_HERO}}",
+                  "id": "{{MEDIA_ID_BENTO_HERO}}"
+                },
+                "image_size": "large",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "be1cel1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{Servizio di punta: beneficio principale}}",
+                "header_size": "h3",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "be1cel2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>{{2 righe: il risultato che il cliente ottiene, con un dato concreto}}</p>",
+                "text_color": "#c7cdd4",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bn2cnt2",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10,
+              "column": "10",
+              "row": "10"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 8,
+              "column": "8",
+              "row": "8"
+            },
+            "width": {
+              "unit": "%",
+              "size": 32
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "be2cel0",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{MEDIA_URL_BENTO_2}}",
+                  "id": "{{MEDIA_ID_BENTO_2}}"
+                },
+                "image_size": "large",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "be2cel1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{Servizio 2}}",
+                "header_size": "h3",
+                "title_color": "#101820",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "be2cel2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>{{1-2 righe di beneficio}}</p>",
+                "text_color": "#3c4650",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bn3cnt3",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10,
+              "column": "10",
+              "row": "10"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 8,
+              "column": "8",
+              "row": "8"
+            },
+            "width": {
+              "unit": "%",
+              "size": 32
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "be3cel1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{Numero chiave, es. +38% lead}}",
+                "header_size": "h3",
+                "title_color": "#101820",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "be3cel2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>{{contesto del numero in una riga}}</p>",
+                "text_color": "#3c4650",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bn4cnt4",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10,
+              "column": "10",
+              "row": "10"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 8,
+              "column": "8",
+              "row": "8"
+            },
+            "width": {
+              "unit": "%",
+              "size": 32
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "be4cel0",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{MEDIA_URL_BENTO_4}}",
+                  "id": "{{MEDIA_ID_BENTO_4}}"
+                },
+                "image_size": "large",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "be4cel1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{Servizio 3}}",
+                "header_size": "h3",
+                "title_color": "#101820",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "be4cel2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>{{1-2 righe di beneficio}}</p>",
+                "text_color": "#3c4650",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bn5cnt5",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10,
+              "column": "10",
+              "row": "10"
+            },
+            "flex_gap_mobile": {
+              "unit": "px",
+              "size": 8,
+              "column": "8",
+              "row": "8"
+            },
+            "width": {
+              "unit": "%",
+              "size": 32
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 48
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "be5cel1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{Servizio 4}}",
+                "header_size": "h3",
+                "title_color": "#101820",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "be5cel2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>{{1-2 righe di beneficio}}</p>",
+                "text_color": "#3c4650",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ca11ta2",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+    "css_id": "sec-cta",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_align_items": "center",
+    "flex_gap": {
+      "unit": "px",
+      "size": 20,
+      "column": "20",
+      "row": "20"
+    },
+    "padding": {
+      "unit": "px",
+      "top": "96",
+      "right": "24",
+      "bottom": "96",
+      "left": "24",
+      "isLinked": false
+    },
+    "padding_mobile": {
+      "unit": "px",
+      "top": "56",
+      "right": "16",
+      "bottom": "56",
+      "left": "16",
+      "isLinked": false
+    },
+    "flex_direction_mobile": "column",
+    "background_background": "classic",
+    "background_color": "#0a5cd7",
+    "__globals__": {
+      "background_color": "globals/colors?id=primary"
+    },
+    "flex_gap_mobile": {
+      "unit": "px",
+      "size": 13,
+      "column": "13",
+      "row": "13"
+    }
+  },
+  "elements": [
+    {
+      "id": "cb22tb3",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+        "title": "{{Domanda o invito diretto: una sola azione, zero distrazioni}}",
+        "header_size": "h2",
+        "align": "center",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_size": {
+          "unit": "px",
+          "size": 40
+        },
+        "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 28
+        },
+        "typography_font_weight": "700"
+      },
+      "elements": []
+    },
+    {
+      "id": "cc33td4",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "settings": {
+        "editor": "<p>{{Rassicurazione: cosa succede dopo il click, niente impegno, tempi di risposta}}</p>",
+        "align": "center",
+        "text_color": "#eef3fb",
+        "typography_typography": "custom",
+        "typography_font_size": {
+          "unit": "px",
+          "size": 18
+        },
+        "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 16
+        }
+      },
+      "elements": []
+    },
+    {
+      "id": "cd44te5",
+      "elType": "widget",
+      "widgetType": "button",
+      "settings": {
+        "text": "{{CTA: verbo + beneficio (es. Prenota la consulenza gratuita)}}",
+        "align": "center",
+        "link": {
+          "url": "{{URL_O_ANCHOR_CONTATTI}}",
+          "is_external": false,
+          "nofollow": false
+        },
+        "button_text_color": "#0a5cd7",
+        "background_color": "#ffffff",
+        "border_radius": {
+          "unit": "px",
+          "top": "8",
+          "right": "8",
+          "bottom": "8",
+          "left": "8",
+          "isLinked": true
+        },
+        "text_padding": {
+          "unit": "px",
+          "top": "18",
+          "right": "40",
+          "bottom": "18",
+          "left": "40",
+          "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_weight": "600"
+      },
+      "elements": []
+    }
+  ]
+}

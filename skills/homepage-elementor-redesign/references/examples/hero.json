@@ -1,0 +1,247 @@
+{
+  "id": "a1b2c3d",
+  "elType": "container",
+  "isInner": false,
+  "settings": {
+    "css_id": "sec-hero",
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_align_items": "flex-start",
+    "flex_gap": {
+      "unit": "px",
+      "size": 24,
+      "column": "24",
+      "row": "24"
+    },
+    "min_height": {
+      "unit": "vh",
+      "size": 82
+    },
+    "padding": {
+      "unit": "px",
+      "top": "120",
+      "right": "24",
+      "bottom": "120",
+      "left": "24",
+      "isLinked": false
+    },
+    "padding_tablet": {
+      "unit": "px",
+      "top": "88",
+      "right": "24",
+      "bottom": "88",
+      "left": "24",
+      "isLinked": false
+    },
+    "padding_mobile": {
+      "unit": "px",
+      "top": "64",
+      "right": "16",
+      "bottom": "64",
+      "left": "16",
+      "isLinked": false
+    },
+    "flex_direction_mobile": "column",
+    "background_background": "classic",
+    "background_image": {
+      "url": "{{MEDIA_URL_HERO}}",
+      "id": "{{MEDIA_ID_HERO}}"
+    },
+    "background_position": "center center",
+    "background_size": "cover",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "#101820",
+    "background_overlay_opacity": {
+      "unit": "px",
+      "size": 0.55
+    },
+    "flex_gap_mobile": {
+      "unit": "px",
+      "size": 15,
+      "column": "15",
+      "row": "15"
+    }
+  },
+  "elements": [
+    {
+      "id": "b2c3d4e",
+      "elType": "widget",
+      "widgetType": "heading",
+      "settings": {
+        "title": "{{H1: promessa di valore, max 9 parole, keyword primaria}}",
+        "header_size": "h1",
+        "title_color": "#ffffff",
+        "typography_typography": "custom",
+        "typography_font_size": {
+          "unit": "px",
+          "size": 56
+        },
+        "typography_font_size_tablet": {
+          "unit": "px",
+          "size": 44
+        },
+        "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 34
+        },
+        "typography_font_weight": "700",
+        "typography_line_height": {
+          "unit": "em",
+          "size": 1.15
+        },
+        "__globals__": {
+          "typography_typography": "globals/typography?id=primary"
+        }
+      },
+      "elements": []
+    },
+    {
+      "id": "c3d4e5f",
+      "elType": "widget",
+      "widgetType": "text-editor",
+      "settings": {
+        "editor": "<p>{{Sottotitolo: beneficio concreto + per chi, 1-2 frasi, tono caldo benefit-first}}</p>",
+        "text_color": "#e8eaed",
+        "typography_typography": "custom",
+        "typography_font_size": {
+          "unit": "px",
+          "size": 20
+        },
+        "typography_font_size_mobile": {
+          "unit": "px",
+          "size": 17
+        },
+        "width": {
+          "unit": "%",
+          "size": 60
+        },
+        "width_tablet": {
+          "unit": "%",
+          "size": 80
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        }
+      },
+      "elements": []
+    },
+    {
+      "id": "d4e5f6a",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 16,
+          "column": "16",
+          "row": "16"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "8",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "8",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 12,
+          "column": "12",
+          "row": "12"
+        }
+      },
+      "elements": [
+        {
+          "id": "e5f6a7b",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "{{CTA primaria, verbo d'azione}}",
+            "link": {
+              "url": "#sec-contatti",
+              "is_external": false,
+              "nofollow": false
+            },
+            "button_text_color": "#ffffff",
+            "background_color": "#0a5cd7",
+            "__globals__": {
+              "background_color": "globals/colors?id=primary"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "8",
+              "right": "8",
+              "bottom": "8",
+              "left": "8",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "32",
+              "bottom": "16",
+              "left": "32",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f6a7b8c",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "{{CTA secondaria, esplorativa}}",
+            "link": {
+              "url": "#sec-servizi",
+              "is_external": false,
+              "nofollow": false
+            },
+            "button_text_color": "#ffffff",
+            "background_color": "#00000000",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "2",
+              "right": "2",
+              "bottom": "2",
+              "left": "2",
+              "isLinked": true
+            },
+            "border_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "8",
+              "right": "8",
+              "bottom": "8",
+              "left": "8",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "14",
+              "right": "30",
+              "bottom": "14",
+              "left": "30",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
