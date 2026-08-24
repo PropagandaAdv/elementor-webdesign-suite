@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "wp-mcp": {
+      "type": "http",
+      "url": "${WP_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${WP_MCP_TOKEN}"
+      },
+      "_comment": "MCP server WordPress opzionale (Canale B0 in wp-connection.md) — es. un plugin tipo Royal MCP che espone route /pages, /media, /site su namespace <plugin>/v1/mcp. Imposta WP_MCP_URL e WP_MCP_TOKEN nell'ambiente o in .env. Rimuovi questo blocco se non usi nessun MCP server lato WordPress."
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"],
+      "_comment": "Browser automation per il ciclo di screenshot/QA (FASE 4 di homepage-elementor-redesign e website-qa-review) quando l'IDE non ha un browser integrato. In alternativa: chrome-devtools MCP, o il browser nativo di Antigravity (nessuna voce da aggiungere qui in quel caso)."
+    }
+  }
+}
